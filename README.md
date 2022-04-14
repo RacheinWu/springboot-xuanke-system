@@ -36,3 +36,6 @@
 * 在controller层和service之间的接口命名规范，即CRUD命名方式
 * 数据库设计规范，目前每张表的主键都为int类型，后期可以根据开发需求进行更换<br>
 但是要注意，多表查询的索引建议用int，不要用varchar以加快效率
+
+## 接口文档地址
+http://localhost/swagger-ui/index.html#/
