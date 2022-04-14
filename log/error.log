@@ -1,0 +1,4 @@
+2022-04-14 09:25:30.644 [http-nio-80-exec-4] ERROR com.rachein.demo.excpetors.GlobalExceptionHandler - cn.dev33.satoken.exception.NotRoleException: 无此角色：student
+2022-04-14 09:30:14.966 [http-nio-80-exec-3] ERROR com.rachein.demo.excpetors.GlobalExceptionHandler - cn.dev33.satoken.exception.NotRoleException: 无此角色：student
+2022-04-14 09:30:44.195 [http-nio-80-exec-6] ERROR com.rachein.demo.excpetors.GlobalExceptionHandler - cn.dev33.satoken.exception.NotLoginException: Token无效：98a22fcc-6296-413a-a1a0-babe5237fe2d
+2022-04-14 09:30:52.878 [http-nio-80-exec-8] ERROR com.rachein.demo.excpetors.GlobalExceptionHandler - cn.dev33.satoken.exception.NotLoginException: Token无效：5e7fc2c2-b04d-42ac-9bdf-0c34d1641d62

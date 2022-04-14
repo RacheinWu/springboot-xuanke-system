@@ -1,0 +1,9 @@
+2022-04-12 15:56:23.690 [main] ERROR com.rachein.demo.DemoApplicationTests - ceshiceshi2
+2022-04-12 15:57:15.277 [main] ERROR com.rachein.demo.DemoApplicationTests - ceshiceshi2
+2022-04-12 22:06:00.083 [http-nio-80-exec-1] ERROR c.rachein.demo.interception.GlobalExceptionHandler - cn.dev33.satoken.exception.NotLoginException: 未提供Token
+2022-04-12 22:06:38.033 [http-nio-80-exec-3] ERROR c.rachein.demo.interception.GlobalExceptionHandler - cn.dev33.satoken.exception.NotLoginException: 未提供Token
+2022-04-12 22:06:38.689 [http-nio-80-exec-4] ERROR c.rachein.demo.interception.GlobalExceptionHandler - cn.dev33.satoken.exception.NotLoginException: 未提供Token
+2022-04-12 22:06:38.935 [http-nio-80-exec-5] ERROR c.rachein.demo.interception.GlobalExceptionHandler - cn.dev33.satoken.exception.NotLoginException: 未提供Token
+2022-04-12 22:06:39.228 [http-nio-80-exec-6] ERROR c.rachein.demo.interception.GlobalExceptionHandler - cn.dev33.satoken.exception.NotLoginException: 未提供Token
+2022-04-12 22:07:10.484 [http-nio-80-exec-7] ERROR c.rachein.demo.interception.GlobalExceptionHandler - com.rachein.demo.excpetors.GlobalException: CodeMsg [code=50005, msg=账号不存在！]
+2022-04-12 22:07:55.590 [http-nio-80-exec-8] ERROR c.rachein.demo.interception.GlobalExceptionHandler - com.rachein.demo.excpetors.GlobalException: CodeMsg [code=50006, msg=密码错误！]

@@ -1,0 +1,184 @@
+body {
+    background-color: #f6f6f6;
+}
+
+.box {
+    margin: 10px auto;
+    width: 600px;
+    background: #fff;
+}
+
+.box .yi {
+    height: 50px;
+    border-bottom: 1px solid #e6e5e5;
+}
+
+.box .yi ul li {
+    list-style: none;
+    float: left;
+    margin: 15px;
+}
+
+.box .yi a {
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+
+.box .yi ul li .active {
+    color: rgb(0, 102, 255);
+}
+
+.box .Box_container .you {
+    height: 200px;
+    border-bottom: 1px solid #e6e5e5;
+}
+
+.box .Box_container .you img {
+    float: left;
+    width: 140px;
+    height: 100px;
+    border-radius: 3px;
+    margin: 15px;
+}
+
+.box h4 {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.box span {
+    display: inline-block;
+    margin-top: 18px;
+    width: 70px;
+    height: 30px;
+    color: rgb(0, 102, 255);
+    font-size: 14px;
+}
+
+.box #jiantou {
+    width: 8px;
+    height: 8px;
+    position: relative;
+    margin-left: -5px;
+    z-index: 2;
+}
+
+.bottom-arrow1,
+.bottom-arrow2 {
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 5;
+    /*兼容ie8-*/
+    border-bottom: 6px transparent dashed;
+    border-left: 6px transparent dashed;
+    border-right: 6px transparent dashed;
+    border-top: 6px white solid;
+    overflow: hidden;
+}
+
+.bottom-arrow1 {
+    top: 1px;
+    /*重要*/
+    border-top: 7px rgb(0, 102, 255) solid;
+}
+
+.bottom-arrow2 {
+    border-top: 5px white solid;
+}
+
+
+.box .Box_container .wu {
+    height: 150px;
+    border-bottom: 1px solid #e6e5e5;
+}
+.Box_container .wu p {
+    width: 580px;
+    margin-left: 15px;
+    margin-top: 15px;
+    line-height: 5px;
+    font-size: 14px;
+}
+
+.Box_container .you p{
+    width: 580px;
+    margin-left: 15px;
+    margin-top: 15px;
+    line-height: 5px;
+    font-size: 14px;
+}
+
+.pinxuan {
+    clear: both;
+    margin-left: 18px;
+}
+
+.pinxuan div {
+    float: left;
+    font-size: 14px;
+}
+
+.jiantou1 {
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 7px solid #217AFF;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.zt {
+    color: #217AFF;
+    width: 38px;
+    height: 28px;
+    line-height: 28px;
+    background-color: rgba(0, 102, 255, .1);
+    text-indent: 0.3em;
+}
+
+.pinglun ul {
+    margin-top: 5px;
+}
+
+.pinglun ul li {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+
+.ty,
+.ty1 {
+    width: 20px;
+    height: 28px;
+    background-color: rgba(0, 102, 255, .1);
+}
+
+.ty1 {
+    margin-left: 5px;
+    width: 30px;
+}
+
+.jiantou2 {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    /* 左边框的宽 */
+    border-right: 4px solid transparent;
+    /* 右边框的宽 */
+    border-top: 7px solid #217AFF;
+    /* 下边框的长度|高,以及背景色 */
+    font-size: 0;
+    line-height: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.chuxian{
+    display: none;
+    height: 500px;
+    border-bottom: 1px solid #e6e5e5;
+    overflow: hidden;
+}

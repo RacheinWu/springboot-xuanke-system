@@ -1,0 +1,66 @@
+body{
+    background-color:  lightgrey;
+    margin: 0 ;
+    padding: 0px;
+    /*overflow: hidden;*/
+}
+
+#envelope{
+    position: relative;
+    height: 600px;
+    width: 552px;
+    /*top: 100px;*/
+    margin: 0 auto;
+}
+img{
+    position: absolute;
+    bottom: 0;
+}
+img:nth-child(2){
+    z-index: 1;
+}
+img:nth-child(3){
+    position: relative;
+    top: 120px;
+    display: block;
+
+}
+#letter1{
+    position: relative;
+    height: 680px;
+    /*border: #0066ff 1px solid;*/
+    width: 550px;
+    /*top: 0px ;*/
+    margin: -700px auto;
+    /*left: 1000px;*/
+    overflow: hidden;
+}
+
+#container{
+    position: absolute;
+    width: 420px;
+    height: 500px;
+    background-color: #fff;
+    bottom: -220px;
+    left: 50px;
+    text-align: center;
+    font-family: Bahnschrift;
+    font-size: 25px;
+}
+input[type=checkbox]{
+    display: none;
+}
+/*label{*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    width: 495px;*/
+/*    height: 295px;*/
+/*    border: red 1px solid;*/
+/*    z-index: 1;*/
+/*    bottom: 10px;*/
+/*    left: 13px;*/
+/*}*/
+/*#toggle:checked  + #3 {*/
+/*    !*top: 100px ;*!*/
+/*    top: 100px;*/
+/*}*/

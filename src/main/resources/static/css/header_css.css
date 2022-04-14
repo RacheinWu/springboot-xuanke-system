@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    /*background-color: rgb(246,246,246);*/
+}
+/*div：头部*/
+.header{
+    width: 100vm;
+    height: 52px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgb(229,229,229) ;
+}
+/*div：头部中央*/
+.header .header-middle{
+    width: 1202px;
+    height: 52px;
+    display: flex;
+
+    margin: 0 auto;
+}
+/*头部图标*/
+.header .header-middle .zhihu_brand{
+    display: block;
+    width: 64px;
+    height: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0,102,255);
+    margin-top: 5px;
+    padding-right: 14px;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+/*头部所有超链接取消下划线*/
+.header .header-middle a{
+    text-decoration:none;
+}
+/*头部中央的ul*/
+.header .header-middle ul{
+    width: 300px;
+    height: 50px;
+    /*overflow: hidden;*/
+}
+/*头部中央内容的li*/
+.header .header-middle ul li{
+    display:inline-block;
+    list-style-type: none;
+    text-align: center;
+    /*padding: 0 15px;*/
+    width: 70px;
+    height: 50px;
+    float: left;
+}
+/*头部中央内容中的li的超链接属性*/
+.header .header-middle ul li a{
+    display: block;
+    color: rgb(133,144,166);
+    font-size: 15px;
+    /*margin-top: 15px;*/
+    padding: 16px 0;
+    width: 70px;
+    text-align: center;
+
+
+}
+.header .header-middle ul li a .blue_under{
+
+    position: relative;
+    right: 0;
+    left: 10%;
+    top: 10px;
+    height: 1px;
+    background: #06f;
+    padding: 2px 2px;
+    width: 80%;
+    display: none;
+}
+/*搜索框*/
+.header .header-middle .header_search #header_search{
+    width: 390px;
+    height: 34px;
+    margin-top: 7px;
+    border-radius: 15px;
+    background-color: rgb(246,246,246);
+    border: 1px rgb(235,235,235) solid;
+    color: rgb(133,144,166);
+    padding-left: 18px;
+    outline: none;
+}
+/*搜索框中的搜索图标*/
+.header .header-middle .header_search form .header_search_SearchInput_div svg {
+    width: 16px;
+    height: 16px;
+    margin-top: -10px;
+    z-index: 1;
+    position: relative;
+    right: -366px;
+    top: -27px;
+    color: rgb(162,170,186);
+}
+/*整个搜索表格*/
+.header .header-middle .header_search{
+    width: 594px;
+    position: relative;
+    left: 50px;
+    /*float: left;*/
+}
+/*整个搜索表格*/
+.header .header-middle .header_search .header_search_SearchInput_div,form{
+    width: 400px;
+    height: 52px;
+}
+/*提交表单按钮*/
+.header .header-middle .header_search .search_submit{
+    border-radius: 15px;
+    width: 70px;
+    height: 34px;
+    background-color: rgb(0,102,255);
+    border-style: none;
+    color: white;
+    position: relative;
+    left: 420px;
+    top: -44px;
+    outline: none;
+}
+/*用户栏*/
+.header .header-middle .header_userMsg{
+    position: relative;
+    left: 20px;
+    height: 100%;
+    width: 154px;
+    /*background-color: burlywood;*/
+}
+.header .header-middle .header_userMsg .header_userNews{
+    float: left;
+    /*background-color: rebeccapurple;*/
+    width: 60px;
+    /*padding-left: 30px;*/
+    /*margin-left: 22px;*/
+    /*padding: 0 14px;*/
+    height: 48px;
+
+}
+
+.header .header-middle .header_userMsg .header_userNews span{
+    display: block;
+    /*width: 22px;*/
+    /*height: 22px;*/
+    margin-left: 22px;
+
+}
+.header .header-middle .header_userMsg .header_userNews .css-ybodb{
+    /*position: absolute;*/
+    width: 24px;
+    height: 18px;
+    background-color:rgb(241,64,60);
+    color: white;
+    border-radius: 15px;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    font-size: 10px;
+    text-align:center;
+    border: 2px solid white;
+    position: relative;
+    left: 22px;
+    top: -20px;
+}
+.header .header-middle .header_userMsg .header_userNews span svg{
+    position: relative;
+    color: rgb(133,144,166);
+    top: 15px;
+    right: 13px;
+}
+.header .search_Tip{
+    position: absolute;
+    width: 485px;
+    height: 450px;
+    top: 48px;
+    /*left: 779px;*/
+    background-color: white;
+    border: rgb(235,235,235) solid 1px;
+    border-radius: 6px;
+    display: none;
+}
+.header .header-middle .header_userMsg .header_userImg img{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    left: 134px;
+    top: 9px;
+}
+/*.header .header-middle .header_userMsg .header_userImg img{*/
+/*    position: absolute;*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*}*/
+
+
+.header .header-middle .search_Tip ul{
+    width: 100%;
+    height: 100%;
+}
+.header .header-middle .search_Tip ul li{
+
+}
+.header .header-middle .search_Tip ul li:nth-child(1){
+    border-bottom: 1px rgb(235,235,235) solid;
+}
+.header .header-middle ul li:hover div{
+    display: block;
+    opacity: 0.8;
+   /* transition: display 0.9s ease-in-out 1s;*/
+}

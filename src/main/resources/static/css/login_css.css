@@ -1,0 +1,364 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("https://static.zhihu.com/heifetz/assets/sign_bg.db29b0fb.png");
+    background-repeat: no-repeat;
+    background-color: rgb(252,211,238);
+    background-size: cover;
+    overflow: auto;
+}
+.Big{
+    width: 100vm;
+    height: 100vm;
+}
+
+/*div class="login_Bar_bulk" 的基础设置*/
+.Big .login_Bar_bulk{
+    width: 100vm;
+    height: 828px;
+}
+/*div class="login_Bar_under" 的基础设置*/
+.Big .login_Bar_under{
+    width: 100vm;
+    height: 88px;
+    /*position: absolute;*/
+    /*bottom: 0;*/
+}
+/*Logo*/
+.Big .login_Bar_bulk img{
+    display: block;
+    width: 128px;
+    height: 80px;
+    margin: 0px auto;
+    position: relative;
+    top: 120px;
+}
+/*<div class="Div_login">的基础设置*/
+.Big .login_Bar_bulk .Div_login{
+    position: relative;
+    width: 400px;
+    height: 495px;
+    margin: 0 auto;
+    top: 140px;
+    background-color: #fff;
+}
+.Big .login_Bar_bulk .Div_login .inner{
+    position: absolute;
+    width: 100%;
+    height: 375px;
+    float: top;
+}
+.Big .login_Bar_bulk .Div_login .inner .QR-pattern{
+    width: 52px;
+    height: 52px;
+    float: right;
+}
+/*注册表格*/
+.Big .login_Bar_bulk .Div_login .inner .regForm{
+    width: 352px;
+    height: 246px;
+    padding: 0px 24px;
+    position: absolute;
+    /*display: none;*/
+}
+/*设置注册表单中的input字体*/
+.Big .login_Bar_bulk .Div_login .inner .regForm input,select,option{
+    font-size: 15px;
+}
+/*注册页面的邮箱输入*/
+.Big .login_Bar_bulk .Div_login .inner .regForm .div-email-input-reg{
+    position: absolute;
+    width: 352px;
+    top: 10px;
+}
+/*邮箱名字输入input*/
+.Big .login_Bar_bulk .Div_login .inner .regForm .div-email-input-reg .form-reg-email{
+    height: 49px;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid rgb(235,235,235);
+    float: left;
+}
+.Big .login_Bar_bulk .Div_login .inner .regForm .div-email-input-reg > div{
+    float: left;
+    width: 10%;
+    height: 49px;
+    border-bottom: 1px solid rgb(235,235,235);
+
+}
+.Big .login_Bar_bulk .Div_login .inner .regForm .div-email-input-reg > div span{
+    height: 20px;
+    display: block;
+    top: 13px;
+    left: 185px;
+    font-size: 17px;
+    position: absolute;
+}
+
+.Big .login_Bar_bulk .Div_login .inner .regForm .div-email-input-reg select{
+    height: 50px;
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid rgb(235,235,235);
+    outline: none;
+}
+/*设置密码1*/
+.Big .login_Bar_bulk .Div_login .inner .regForm .password-reg1{
+    position: absolute;
+    top: 68px;
+}
+.Big .login_Bar_bulk .Div_login .inner .regForm .password-reg2{
+    position: absolute;
+    top: 126px;
+}
+.Big .login_Bar_bulk .Div_login .inner .regForm .password-reg1 input ,.password-reg2 input{
+    height: 49px;
+    border: none;
+    border-bottom: 1px rgb(235,235,235) solid;
+    width: 352px;
+
+}
+/*注册按钮*/
+.Big .login_Bar_bulk .Div_login .inner .regForm .submit-reg{
+    position: absolute;
+    top: 199px;
+    width: 352px;
+}
+.Big .login_Bar_bulk .Div_login .inner .regForm .submit-reg input:hover{
+    cursor:pointer;
+    background-color: rgb(0,92,230);
+}
+.Big .login_Bar_bulk .Div_login .inner .regForm .submit-reg input{
+    background-color: rgb(0,102,255);
+    border:none;
+    border-radius: 4px;
+    color: white;
+    height: 36px;
+    width: 100%;
+}
+
+/*登录表单*/
+.Big .login_Bar_bulk .Div_login .inner .login_form{
+    width: 352px;
+    height: 291px;
+    padding: 0px 24px;
+    position: absolute;
+    /*display: none;*/
+}
+
+.Big .login_Bar_bulk .Div_login .inner .tap-choice-to-login{
+    height: 60px;
+    padding: 0 24px;
+}
+
+.Big .login_Bar_bulk .Div_login .inner .tap-choice-to-login .choice1,.choice2{
+    width: 68px;
+    float: left;
+    padding-top: 18px;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+/*取消所有超链接标签的下划线*/
+a{
+    text-decoration:none;
+    color: black;
+}
+/*设置页面中span错误显示的位置*/
+.login-span{
+    position: absolute;
+    /*border: 1px red solid;*/
+    display: block;
+    height: 30px;
+    top: 13px;
+    color: red;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.Big .login_Bar_bulk .Div_login .inner .choice1 a{
+    /*font-size: 17px;*/
+    font-weight: 600;
+}
+.Big .login_Bar_bulk .Div_login .inner .Login_Blue_under{
+    width: 100%;
+    position: relative;
+    height: 4px;
+    background-color: rgb(1,103,255);
+    bottom: -13px;
+}
+.Big .login_Bar_bulk .Div_login .inner  .choice1 .Login_Blue_under{
+    display: block;
+}
+.Big .login_Bar_bulk .Div_login .inner  .choice2 .Login_Blue_under{
+    display: none;
+}
+.Big .login_Bar_bulk .Div_login .inner .login_form .Login_username{
+    position: relative;
+    top: 20px;
+    height: 49px;
+}
+.Big .login_Bar_bulk .Div_login .inner .login_form .Login_username .emptyUsername:after,.emptyUsername{
+    content: "";
+    position: relative;
+    left: 330px;
+    top: -35px;
+    height: 22px;
+}
+
+
+.Big .login_Bar_bulk .Div_login .inner .login_form .Login_password{
+    position: relative;
+    top: 36px;
+    height: 49px;
+}
+.Big .login_Bar_bulk .Div_login .inner .login_form .Login_password .password-view:after,.password-view{
+    content: "";
+    position: relative;
+    left: 285px;
+    top: -37px;
+    height: 22px;
+    color: grey;
+}
+
+.Big .login_Bar_bulk .Div_login .inner .login_form .Login_username input , .Login_password input{
+    border:none;
+    border-bottom: rgb(235,235,235) 1px solid;
+    height: 48px;
+    width: 100%;
+    /*padding-top: 14px;*/
+    font-size: 15px;
+    top: 20px;
+    font-color: rgb(235,235,235);
+}
+
+.Big .login_Bar_bulk .Div_login .inner .login_form .otherLoginChoice1{
+    padding-top: 13px;
+    position: relative;
+    top: 34px;
+}
+
+.Big .login_Bar_bulk .Div_login .inner .login_form .otherLoginChoice1 span{
+    font-size: 13px;
+}
+.Big .login_Bar_bulk .Div_login .inner .login_form .otherLoginChoice1 span:nth-child(1) a{
+    color: rgb(23,81,153);
+    position: relative;
+    top: -17px;
+}
+.Big .login_Bar_bulk .Div_login .inner .login_form .otherLoginChoice1 span:nth-child(2){
+    float: right;
+    position: relative;
+    top: 3px;
+}
+.Big .login_Bar_bulk .Div_login .inner .login_form .otherLoginChoice1 span:nth-child(2) a{
+    color: rgb(133,144,166);
+}
+
+.Big .login_Bar_bulk .Div_login .inner .login_form .Login_submit{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 36px;
+    padding-top: 25px;
+}
+.Big .login_Bar_bulk .Div_login .inner .login_form .Login_submit input{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,102,255);
+    border:none;
+    border-radius: 4px;
+    color: white;
+}
+.Big .login_Bar_bulk .Div_login .inner .login_form .Login_submit input:hover{
+    cursor: pointer;
+    background-color: rgb(0,92,230);
+}
+
+
+/*将所有input标签进行取消黑边*/
+input{
+    outline: none;
+}
+.Big .login_Bar_bulk .Div_login .inner .regular{
+    width: 352px;
+    padding: 10px 24px;
+    position: absolute;
+    bottom: 0px;
+
+}
+.Big .login_Bar_bulk .Div_login .inner .regular div{
+    font-size: 13px;
+    color: gray;
+    border-bottom: 1px rgb(235,235,235) solid;
+    padding-bottom: 13px;
+}
+.Big .login_Bar_bulk .Div_login  .otherLoginChoice2{
+    width: 352px;
+    padding: 0px 24px;
+    height: 60px;
+    position: absolute;
+    bottom: 60px;
+}
+.Big .login_Bar_bulk .Div_login  .otherLoginChoice2 span{
+
+}
+.Big .login_Bar_bulk .Div_login .otherLoginChoice2 .QQWXWB{
+    width: 220px;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+.Big .login_Bar_bulk .Div_login .otherLoginChoice2 .QQWXWB .choice-login-ways {
+    height: 100%;
+    width: 30%;
+    float: right;
+    font-size: 15px;
+    /*padding-right: 10px;*/
+    vertical-align: center;
+}
+.Big .login_Bar_bulk .Div_login  .otherLoginChoice2 .QQWXWB .choice-login-ways svg,span{
+    position: relative;
+    top: 17px;
+
+}
+.Big .login_Bar_bulk .Div_login  .otherLoginChoice2 .QQWXWB .choice-login-ways span{
+    color: grey;
+    font-size: 14px;
+}
+.Big .login_Bar_bulk .Div_login  .otherLoginChoice2 .QQWXWB .choice-login-ways svg{
+    position: relative;
+    top: 20px;
+}
+
+.Big .login_Bar_bulk .Div_login .otherLoginChoice2 span:nth-child(1){
+    color: grey;
+    position: relative;
+    top: 19px;
+}
+.Big .login_Bar_bulk .Div_login .login_inner_bottom{
+    width: 352px;
+    padding: 0px 24px;
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(246,246,246);
+}
+.Big .login_Bar_bulk .Div_login .login_inner_bottom div:nth-child(1){
+    float: left;
+}
+.Big .login_Bar_bulk .Div_login .login_inner_bottom div:nth-child(2){
+    float: right;
+}
+.Big .login_Bar_bulk .Div_login .login_inner_bottom div{
+    position: relative;
+    top: 13px;
+}
+.Big .login_Bar_bulk .Div_login .login_inner_bottom svg{
+    position: relative;
+    top: 6px;
+}
+.password-view:hover ,.emptyUsername:hover{
+    cursor:pointer;
+}

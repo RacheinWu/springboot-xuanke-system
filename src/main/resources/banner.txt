@@ -1,0 +1,19 @@
+${AnsiColor.BLACK}Project Version: V1.2${AnsiColor.BLACK}
+${AnsiColor.BLACK}Spring Boot Version: ${spring-boot.version}
+${AnsiColor.BRIGHT_CYAN}${AnsiStyle.BOLD}
+                              ___           ___           ___
+    ___           ___        /  /\         /  /\         /__/\
+   /  /\         /  /\      /  /::\       /  /:/_       |  |::\
+  /  /:/        /  /:/     /  /:/\:\     /  /:/ /\      |  |:|:\
+ /__/::\       /  /:/     /  /:/ /::\   /  /:/ /:/_   __|__|:|\:\
+ \__\/\:\__   /  /::\    /__/:/ /:/\:\ /__/:/ /:/ /\ /__/::::| \:\
+    \  \:\/\ /__/:/\:\   \  \:\/:/__\/ \  \:\/:/ /:/ \  \:\~~\__\/
+     \__\::/ \__\/  \:\   \  \::/       \  \::/ /:/   \  \:\
+     /__/:/       \  \:\   \  \:\        \  \:\/:/     \  \:\
+     \__\/         \__\/    \  \:\        \  \::/       \  \:\
+                             \__\/         \__\/         \__\/
+
+${AnsiColor.BRIGHT_RED}♈ ${AnsiColor.BRIGHT_YELLOW}♉ ${AnsiColor.BRIGHT_GREEN}♊ ${AnsiColor.CYAN}♋                                                                        ${AnsiColor.BRIGHT_RED}♈ ${AnsiColor.BRIGHT_YELLOW}♉ ${AnsiColor.BRIGHT_GREEN}♊ ${AnsiColor.CYAN}♋
+${AnsiColor.RED}♌ ${AnsiColor.MAGENTA}♍ ${AnsiColor.BLACK}♎ ${AnsiColor.BRIGHT_MAGENTA}♏                           ${AnsiColor.GREEN}SpringBoot${spring-boot.formatted-version}                          ${AnsiColor.RED}♌ ${AnsiColor.MAGENTA}♍ ${AnsiColor.BLACK}♎ ${AnsiColor.BRIGHT_MAGENTA}♏
+${AnsiColor.GREEN}♐ ${AnsiColor.YELLOW}♑ ${AnsiColor.BLUE}♒ ${AnsiColor.BRIGHT_CYAN}♓                                                                        ${AnsiColor.GREEN}♐ ${AnsiColor.YELLOW}♑ ${AnsiColor.BLUE}♒ ${AnsiColor.BRIGHT_CYAN}♓${AnsiStyle.NORMAL}
+////////
